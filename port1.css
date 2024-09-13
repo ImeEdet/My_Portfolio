@@ -1,0 +1,124 @@
+html{
+    background-image: url("Images/blueJelly.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    background-color: rgba(60, 111, 177, 0.51);
+    border-bottom: 3px solid rgba(190, 186, 186, 0.637);
+}
+
+.theNavBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+#images{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+/* #imagesName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(26, 25, 25); 
+
+} */
+
+a{
+    list-style-type: none;
+    margin: 5px;
+}
+
+a[id="navbarHome"]{
+    border-bottom: 2px solid rgb(136, 182, 243);
+}
+
+a[id="navbarHome"]:hover{
+    border-bottom: 2px solid rgb(3, 45, 100);
+}
+
+a[id="navbarHome"]:active{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.navbart{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:link{
+    color: rgb(26, 25, 25); 
+}
+
+a:visited{
+    color: rgb(26, 25, 25);
+}
+
+a:hover{
+    color: rgb(248, 248, 248);
+    font-size: 110%;
+}
+
+a:active{
+    color: rgb(141, 183, 236);
+}
+
+h1{
+    color: rgb(26, 25, 25);
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+h3{
+    color: rgb(26, 25, 25);
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#submitMe{
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(7, 7, 88, 0.658);
+    align-content: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#submitMe:hover{
+    color:lightblue;
+    background-color: rgba(0, 0, 139, 0.671);
+    border: 1px solid lightblue;
+    font-size: 20px;
+    transition-delay: 5ms;
+}
+
+#submitMe:active{
+    color:rgba(26, 25, 25, 0.863);
+    background-color: rgba(255, 255, 255, 0.281);
+    border: 1px solid rgba(26, 25, 25, 0.863);
+}

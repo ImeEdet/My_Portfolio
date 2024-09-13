@@ -1,0 +1,15 @@
+body{
+    background-image: url(Images/wingedhorse.jfif);
+}
+
+div#signup{
+    background-color: rgb(136, 130, 136);
+    height: 37rem;
+    width: 40rem;
+
+    opacity: 0.5;
+}
+
+div.input{
+    background-color: aquamarine;
+}
